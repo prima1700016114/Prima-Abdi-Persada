@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col (click)="ac.detailpagepage()">
+        <img src="https://img.okezone.com/content/2017/07/07/65/1731206/marak-makanan-cepat-saji-mahasiswa-buat-burger-sehat-dari-ikan-gabus-3p6lamdJls.jpg"/>
+        <div class="card-title">BURGER</div>
+      </ion-col>
+      <ion-col (click)="detailpagepage()">
+        <img src="http://cdn2.tstatic.net/travel/foto/bank/images/pizza_20170210_142135.jpg"/>
+        <div class="card-title">PIZZA</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col (click)="detailpagepage()">
+        <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/chicken_kebab_wrap_35076_16x9.jpg"/>
+        <div class="card-title">KEBAB</div>
+      
+      </ion-col>
+      <ion-col (click)="detailpagepage()">
+        <img src="https://www.seriouseats.com/recipes/images/2012/01/20120112-popeyes-refried-chicken-6.jpg"/>
+        <div class="card-title">FRIED CHICKEN</div>
+       
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col (click)="detailpagepage()">
+        <img src="https://i.ndtvimg.com/i/2018-02/fries_620x330_51517901541.jpg"/>
+        <div class="card-title">FRIED FRENCH</div>
+        
+      </ion-col>
+      <ion-col (click)="detailpagepage()">
+        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2007/1/2/0/valentines_steak.jpg.rend.hgtvcom.616.462.suffix/1385127027449.jpeg"/>
+        <div class="card-title">STEAK</div>
+        
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
+
